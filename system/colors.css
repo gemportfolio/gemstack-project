@@ -1,0 +1,42 @@
+:root {
+    /* BRAND COLORS */
+    --color-primary: #1A75FF;
+    --color-primary-dark: #0B4DB3;
+    --color-primary-light: #5A9BFF;
+
+    --color-accent: #FACC15;
+    --color-accent-dark: #EAB308;
+    --color-accent-light: #FEF3C7;
+
+    --color-white: #FFFFFF;
+
+    /* BACKGROUND COLORS */
+    --bg-main: #FFFFFF;
+    --bg-section-alt: #EFF6FF;
+    --bg-dark: #08213A;
+
+    /* TEXT COLORS */
+    --text-primary: #0F172A;
+    --text-secondary: #64748B;
+    --text-inverse: #FFFFFF;
+
+    /* BORDER & UI */
+    --border-color: #DBE4F0;
+    --input-bg: #FFFFFF;
+
+    /* BUTTONS */
+    --btn-primary-bg: #1A75FF;
+    --btn-primary-text: #FFFFFF;
+    --btn-primary-hover: #0B4DB3;
+
+    --btn-secondary-bg: transparent;
+    --btn-secondary-text: #1A75FF;
+    --btn-secondary-border: #1A75FF;
+
+    /* GRADIENTS */
+    --gradient-primary:
+        linear-gradient(135deg, #1A75FF, #5A9BFF);
+
+    --gradient-accent:
+        linear-gradient(135deg, #FACC15, #FEF3C7);
+}

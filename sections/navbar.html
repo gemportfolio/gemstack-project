@@ -1,0 +1,114 @@
+<header
+    class="fixed inset-x-0 top-0 z-50 border-b border-[var(--border-color)] bg-[var(--bg-main)]/90 backdrop-blur-lg">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
+
+        <!-- Brand -->
+        <a href="#top" class="flex items-center gap-2">
+            <div class="flex h-9 w-9 items-center justify-center">
+                <img src="assets/gemstack-logo.png" alt="GemStack Logo" class="w-full h-full object-contain">
+            </div>
+
+            <div>
+                <h1 class="text-lg -mb-1 font-bold text-[var(--text-primary)]">
+                    Gem<span class="text-[var(--color-primary)]">Stack</span>
+                </h1>
+
+                <p class="text-[10px] text-[var(--text-secondary)]">
+                    Conversion Systems for Modern Brands
+                </p>
+            </div>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav class="hidden items-center gap-8 md:flex">
+
+            <!-- <a href="#system"
+                class="text-sm font-medium text-[var(--text-secondary)] transition hover:text-[var(--color-primary)]">
+                The System
+            </a> -->
+
+            <a href="#who-this-is-for"
+                class="text-sm font-medium text-[var(--text-secondary)] transition hover:text-[var(--color-primary)]">
+                Who This Is For
+            </a>
+
+            <a href="#offers"
+                class="text-sm font-medium text-[var(--text-secondary)] transition hover:text-[var(--color-primary)]">
+                Our Packages
+            </a>
+
+            <a href="#portfolio"
+                class="text-sm font-medium text-[var(--text-secondary)] transition hover:text-[var(--color-primary)]">
+                Portfolio
+            </a>
+
+            <a href="#testimonials"
+                class="text-sm font-medium text-[var(--text-secondary)] transition hover:text-[var(--color-primary)]">
+                Testimonials
+            </a>
+
+        </nav>
+
+        <!-- Desktop CTA -->
+        <div class="hidden md:flex">
+            <a href="#onboarding"
+                class="inline-flex items-center gap-2 rounded-2xl bg-[var(--btn-primary-bg)] px-5 py-2.5 text-sm font-semibold text-[var(--btn-primary-text)] transition hover:bg-[var(--btn-primary-hover)]">
+                Start Building
+                <i class="bi bi-arrow-up-right"></i>
+            </a>
+        </div>
+
+        <!-- Mobile Button -->
+        <button id="mobileMenuButton" type="button"
+            class="inline-flex items-center justify-center rounded-xl border border-[var(--border-color)] bg-[var(--input-bg)] px-3 py-2 text-[var(--text-primary)] transition hover:bg-[var(--bg-section-alt)] md:hidden"
+            aria-controls="mobileNav" aria-expanded="false">
+
+            <span class="sr-only">Open menu</span>
+            <i id="menuIcon" class="bi bi-list text-xl"></i>
+
+        </button>
+
+    </div>
+
+    <!-- Mobile Navigation -->
+    <div id="mobileNav" class="hidden border-t border-[var(--border-color)] bg-[var(--bg-main)]">
+        <div class="mx-auto max-w-7xl px-4 py-5">
+
+            <nav class="grid gap-2">
+
+                <!-- <a href="#system"
+                    class="mobile-nav-link rounded-xl px-3 py-3 text-sm font-medium text-[var(--text-secondary)] transition hover:bg-[var(--bg-section-alt)] hover:text-[var(--color-primary)]">
+                    The System
+                </a> -->
+
+                <a href="#who-this-is-for"
+                    class="mobile-nav-link rounded-xl px-3 py-3 text-sm font-medium text-[var(--text-secondary)] transition hover:bg-[var(--bg-section-alt)] hover:text-[var(--color-primary)]">
+                    Who This Is For
+                </a>
+
+                <a href="#offers"
+                    class="mobile-nav-link rounded-xl px-3 py-3 text-sm font-medium text-[var(--text-secondary)] transition hover:bg-[var(--bg-section-alt)] hover:text-[var(--color-primary)]">
+                    Our Packages
+                </a>
+
+                <a href="#portfolio"
+                    class="mobile-nav-link rounded-xl px-3 py-3 text-sm font-medium text-[var(--text-secondary)] transition hover:bg-[var(--bg-section-alt)] hover:text-[var(--color-primary)]">
+                    Portfolio
+                </a>
+
+                <a href="#testimonials"
+                    class="mobile-nav-link rounded-xl px-3 py-3 text-sm font-medium text-[var(--text-secondary)] transition hover:bg-[var(--bg-section-alt)] hover:text-[var(--color-primary)]">
+                    Testimonials
+                </a>
+
+                <a href="#onboarding"
+                    class="mobile-nav-link mt-2 inline-flex items-center justify-center gap-2 rounded-2xl bg-[var(--btn-primary-bg)] px-5 py-3 text-sm font-semibold text-[var(--btn-primary-text)] transition hover:bg-[var(--btn-primary-hover)]">
+                    Start Building
+                    <i class="bi bi-arrow-up-right"></i>
+                </a>
+
+            </nav>
+
+        </div>
+    </div>
+</header>
